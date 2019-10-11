@@ -18,7 +18,7 @@ describe("Advanced", () => {
       cy.contains("h1", "Confirmed Talks");
 
       [1, 2, 3, 4, 5].forEach((index) => {
-        cy.get('a.page-numbers').eq(index - 1).click()
+        cy.get("a.page-numbers").eq(index - 1).click()
       })
     })
   })
@@ -31,7 +31,7 @@ describe("Advanced", () => {
 
     it("Shows validation errors", () => {
       cy.get("#wpforms-submit-130395").click()
-      cy.get('label.wpforms-error').should('have.length', 3)
+      cy.get("label.wpforms-error").should("have.length", 3)
     })
 
     it("Sends feedback", () => {
