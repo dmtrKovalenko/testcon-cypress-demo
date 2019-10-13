@@ -3,7 +3,7 @@ describe("Speakers", () => {
     cy.visit("https://www.testcon.lt");
   });
 
-  it.only("displays counter value", () => {
+  it.skip("displays counter value", () => {
     cy.contains("span.percent-value", "5", { timeout: 10000 });
   });
 });
