@@ -4,6 +4,6 @@ describe("Counters", () => {
   });
 
   it.skip('displays counter value', () => {
-    cy.contains('span.percent-value', '1000', { timeout: 10000 })
+    cy.contains('span.percent-value', '800', { timeout: 10000 })
   })
 });

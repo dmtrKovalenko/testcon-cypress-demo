@@ -23,7 +23,7 @@ describe("Advanced", () => {
     })
   })
 
-  context.only("Feedback", () => {
+  context("Feedback", () => {
     before(() => {
       cy.server()
       cy.visit("https://www.testcon.lt/contact-us/")
