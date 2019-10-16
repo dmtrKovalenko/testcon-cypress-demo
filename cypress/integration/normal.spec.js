@@ -1,6 +1,6 @@
-describe("Speakers", () => {
+describe("Counters", () => {
   beforeEach(() => {
-    cy.visit("https://www.testcon.lt")
+    cy.visit("https://www.bigdataconference.lt/")
   });
 
   it.skip('displays counter value', () => {
